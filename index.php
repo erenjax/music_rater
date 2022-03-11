@@ -17,9 +17,18 @@
     </head>
 
 <body> 
+    <h1 style="text-align:center">
+        Music Rater: Registration
+    </h1>
+    <div style="text-align:center">
+    <hr size="8" width="90%" color="blue">  
+        Register to Music Rater to start rating songs!
+        <hr size="8" width="90%" color="blue">  
+    </div>
     <!-- 
         PHP code
     --> 
+    <dive style="text-align:center">
     <?php 
         $servername = "localhost";
         $username = "root";
@@ -64,6 +73,7 @@
         echo $out_value;
     }
     ?></p>
+    </div>
 
 </body>
 </html>
@@ -74,11 +84,23 @@
     <head>
         <title>Music db User Ratings</title>
     </head>
+    <style>
+
+    </style>
 
 <body> 
+    <h1 style="text-align:center">
+        Music Rater: Ratings
+    </h1>
+    <div style="text-align:center">
+    <hr size="8" width="90%" color="red">  
+        Look up a user to see the ratings they have submited!
+        <hr size="8" width="90%" color="red">  
+    </div>
     <!-- 
         PHP code
     --> 
+    <div style="text-align:center">
     <?php 
         $servername = "localhost";
         $username = "root";
@@ -124,6 +146,7 @@
         echo "No songs rated";
     }
     ?></p>
+    </div>
 
     </form>
 </body>
